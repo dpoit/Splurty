@@ -10,7 +10,7 @@
 
   <body>
     <header class="row">
-      <div class="col-2" align="center">
+      <div class="col-2 circle_container" align="center">
         <div class="circle">
           <br />
           coding
@@ -31,11 +31,27 @@
       </div>  
     </header>
 
-    <hr >
+    <hr />
 
     <br class="clear">
 
-    <%= yield %>
-  
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6" align="center">
+            <%= link_to "I need more inspiration!", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb" align="center">
+            Developed by <a href="http://danielpoit.getforge.io/">Daniel Poit</a><br />
+            <a href="http://thefirehoseproject.com/">The Firehose Project</a>, 2017
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>

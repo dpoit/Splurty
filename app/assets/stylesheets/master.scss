@@ -23,12 +23,23 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+.circle_container {
+  padding-top: 10px;
+}
+
 .clear {
   clear: both;
 }
 
+.footer-blurb {
+  font-family: 'source_code_proregular';
+  font-style: italic;
+  font-size: 12px;
+  text-align: right;
+}
+
 .links {
-  padding-top: 26px;
+  padding-top: 40px;
 }
 
 /* removed border-bottom: 1px solid #f84342; from .links a because I don't like it */
@@ -38,8 +49,10 @@
   font-family: 'asapmedium';
 }
 
-.my_headline_font_size {
-  font-size: 24px;
+.next-quote {
+  color: #f84342;
+  font-family: 'saxmonoregular';
+  font-size: 20px
 }
 
 .slogan {
@@ -47,7 +60,9 @@
   font-size: 20px;
   font-style: italic;
   vertical-align: middle;
-  padding-top: 26px;
+  padding-top: 30px;
+  max-width: 400px;
+  margin-right: 50px;
 }
 
 header {
