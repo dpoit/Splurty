@@ -27,6 +27,10 @@
   padding-top: 10px;
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 .clear {
   clear: both;
 }
@@ -49,10 +53,20 @@
   font-family: 'asapmedium';
 }
 
+.links a:hover {
+  color: #CF1A19;
+  text-decoration: none;
+}
+
 .next-quote {
   color: #f84342;
   font-family: 'saxmonoregular';
   font-size: 20px
+}
+
+.next-quote:hover {
+  color: #CF1A19;
+  text-decoration: none;
 }
 
 .slogan {

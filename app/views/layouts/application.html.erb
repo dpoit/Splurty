@@ -11,20 +11,22 @@
   <body>
     <header class="row">
       <div class="col-2 circle_container" align="center">
-        <div class="circle">
-          <br />
-          coding
-          <br />
-          is
-          <br />
-          life
-        </div>
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            coding
+            <br />
+            is
+            <br />
+            life
+          </div>
+        <% end %>
       </div>
       <div class="col-6 slogan" align="center">
         Inspirational and insightful quotes about programming
       </div>
       <div class="col-2 links" align="center">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
       </div>
       <div class="col-2 links" align="center">
         <%= link_to 'About', '#' %>
@@ -43,7 +45,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6" align="center">
-            <%= link_to "I need more inspiration!", "#", class: 'next-quote' %>
+            <%= link_to "I need more inspiration!", root_path, class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb" align="center">
             Developed by <a href="http://danielpoit.getforge.io/">Daniel Poit</a><br />
