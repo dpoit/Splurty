@@ -54,7 +54,7 @@
 .links a {
   color: black;
   font-size: 25px;
-  font-family: 'asapmedium';
+  font-family: 'asapmedium', sans-serif;
 }
 
 .links a:hover {
@@ -62,9 +62,17 @@
   text-decoration: none;
 }
 
+.modal {
+  font-family: 'source_code_proregular', sans-serif;
+}
+
+.modal_button {
+  font-family: 'saxmonoregular', sans-serif;
+}
+
 .next-quote {
   color: #f84342;
-  font-family: 'saxmonoregular';
+  font-family: 'saxmonoregular', sans-serif;
   font-size: 20px
 }
 
@@ -74,7 +82,7 @@
 }
 
 .slogan {
-  font-family: 'source_code_proregular';
+  font-family: 'source_code_proregular', sans-serif;
   font-size: 20px;
   font-style: italic;
   vertical-align: middle;
@@ -99,6 +107,26 @@ h1 {
 h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 24px;
-  text-align: right;
   padding: 0 50px;
+}
+
+h3 {
+  font-family: 'source_code_proregular', sans-serif;
+  font-size: 18px;
+}
+
+/* used a different font than h1 for cosmetic reasons */
+h3 span {
+  font-family: 'saxmonoregular', sans-serif;
+  color: #b3b3b3;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+::selection {
+  background-color: #f84342;
 }
