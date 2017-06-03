@@ -2,8 +2,12 @@
 
 @import "bootstrap";
 
+.about {
+  font-family: 'source_code_proregular', sans-serif;
+}
+
 .circle {
-    font-family: 'saxmonoregular';
+    font-family: 'saxmonoregular', sans-serif;
     font-weight: bold;
     font-style: italic;
     position: relative;
@@ -36,7 +40,7 @@
 }
 
 .footer-blurb {
-  font-family: 'source_code_proregular';
+  font-family: 'source_code_proregular', sans-serif;
   font-style: italic;
   font-size: 12px;
   text-align: right;
