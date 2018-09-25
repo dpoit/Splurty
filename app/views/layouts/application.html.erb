@@ -30,7 +30,7 @@
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         &nbsp;&nbsp;
         <%= link_to 'About', about_path %>
-      </div>  
+      </div>
     </header>
 
     <!-- Modal -->
@@ -54,7 +54,7 @@
               <button type="button" class="btn btn-secondary modal_button" data-dismiss="modal">Cancel</button>
             </div>
           <% end %>
-          
+
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@
         <div class="col-10 offset-1 alert alert-danger">
           <%= flash[:error].html_safe %>
         </div>
-      <% end %>    
+      <% end %>
       <%= yield %>
     </div>
 
@@ -80,7 +80,7 @@
             <%= link_to "I need more inspiration!", root_path, class: 'next-quote' %>
           </div>
           <div class="col-12 col-sm-6 footer-blurb" align="center">
-            Developed by <a href="http://danielpoit.getforge.io/">Daniel Poit</a><br />
+            Developed by <a href="http://www.dannypoit.com/">Danny Poit</a><br />
             <a href="http://thefirehoseproject.com/">The Firehose Project</a>, 2017
           </div>
         </div>
