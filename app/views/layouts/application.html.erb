@@ -26,10 +26,14 @@
         Inspirational and insightful quotes about programming
       </div>
       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links" align="center">
-        <!-- Button trigger modal -->
-        <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
-        &nbsp;&nbsp;
-        <%= link_to 'About', about_path %>
+        <div class="row">
+          <div class="col-6" align="center">
+            <!-- Button trigger modal -->
+            <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+          </div>
+          <div class="col-6" align="center">
+            <%= link_to 'About', about_path %>
+          </div>
       </div>
     </header>
 
