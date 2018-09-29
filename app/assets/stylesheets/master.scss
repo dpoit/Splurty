@@ -39,6 +39,15 @@
   clear: both;
 }
 
+.footer a {
+  color: #f84342;
+}
+
+.footer a:hover {
+  color: #CF1A19;
+  text-decoration: none;
+}
+
 .footer-blurb {
   font-family: 'source_code_proregular', sans-serif;
   font-style: italic;
@@ -71,14 +80,8 @@
 }
 
 .next-quote {
-  color: #f84342;
   font-family: 'saxmonoregular', sans-serif;
   font-size: 20px;
-}
-
-.next-quote:hover {
-  color: #CF1A19;
-  text-decoration: none;
 }
 
 .footer-box {
