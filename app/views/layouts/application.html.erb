@@ -27,12 +27,12 @@
       </div>
       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links" align="center">
         <div class="row">
-          <div class="col-6" align="center">
+          <div class="offset-2 col-2" align="center">
             <!-- Button trigger modal -->
-            <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+            <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'}, class: 'button' %>
           </div>
-          <div class="col-6" align="center">
-            <%= link_to 'About', about_path %>
+          <div class="offset-2 col-2" align="center">
+            <%= link_to 'About', about_path, class: 'button' %>
           </div>
       </div>
     </header>
