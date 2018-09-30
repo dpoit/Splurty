@@ -56,20 +56,20 @@
 }
 
 .links {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 /* removed border-bottom: 1px solid #f84342; from .links a because I don't like it */
-// .links a {
-  // color: black;
-  // font-size: 25px;
-//   font-family: 'asapmedium', sans-serif;
-// }
+.links a {
+  color: black;
+  font-size: 25px;
+  font-family: 'asapmedium', sans-serif;
+}
 
-// .links a:hover {
-//   color: #CF1A19;
-//   text-decoration: none;
-// }
+.links a:hover {
+  color: #CF1A19;
+  text-decoration: none;
+}
 
 .modal {
   font-family: 'source_code_proregular', sans-serif;
@@ -136,25 +136,4 @@ h3 span {
 
 ::selection {
   background-color: #f84342;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  border: 1px solid #ddd;
-  color: #ddd;
-  text-decoration: none;
-  font-family: 'source_code_proregular', sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 15px 5px 0 5px;
-  transition: all .2s;
-  border-color: #000;
-  color: #000;
-}
-
-.button:hover {
-  background: #000;
-  color: #fff;
-  text-decoration: none;
 }
