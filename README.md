@@ -10,10 +10,6 @@ A database-powered quote generator with a mobile-first design, using the Ruby on
 
 * **[Danny Poit](https://github.com/dpoit)**
 
-## License
-
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
-
 ## Acknowledgments
 
 * [The Firehose Project](http://thefirehoseproject.com/)
