@@ -28,6 +28,12 @@ To view the About page, click the 'About' link at the top. This displays informa
 
 <img src="https://i.imgur.com/2hqzlDL.png" alt="About page" width="500"/>
 
+## Tech used
+
+* [Rails](https://rubyonrails.org/) (5.0.7.2)
+* [Bootstrap](https://getbootstrap.com/) (4.3.1)
+* [simple_form](https://github.com/plataformatec/simple_form) (4.1.0)
+
 ## Authors
 
 * **[Danny Poit](https://github.com/dpoit)**
