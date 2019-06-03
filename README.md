@@ -4,7 +4,7 @@ A database-powered quote generator with a mobile-first design, using the Ruby on
 
 ## URL
 
-[https://splurty-daniel-poit.herokuapp.com/](https://splurty-daniel-poit.herokuapp.com/)
+[http://splurty.dannypoit.com/](http://splurty.dannypoit.com/)
 
 ## Quotes
 
